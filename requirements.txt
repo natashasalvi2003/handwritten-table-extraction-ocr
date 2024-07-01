@@ -1,0 +1,4 @@
+openpyxl
+transformers
+pandas
+img2table
