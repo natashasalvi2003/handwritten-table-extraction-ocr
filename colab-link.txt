@@ -1,1 +1,10 @@
-https://colab.research.google.com/drive/1mP-6TNoO4vUlhyxrvi1xVw-iZ-A2fhI6?usp=sharing
+VERSION 1: https://colab.research.google.com/drive/1Pq88JGfgrRcx6Z-3hpBZZL1MZNjzHe7O?usp=sharing
+VERSION 2: https://colab.research.google.com/drive/1k7jrlUex60fjjlpGtV-XgfBibyHXLqn4?usp=sharing
+VERSION 3: https://colab.research.google.com/drive/1mP-6TNoO4vUlhyxrvi1xVw-iZ-A2fhI6?usp=sharing
+
+------------------------------------------------------------------------------------------------------------------------
+
+ABOUT:
+VERSION 1: TESTING OUT THE ACCURACY OF TROCR ON MANUALLY CROPPED SINGLE WORD IMAGES
+VERSION 2: IMPLEMENTING EASY OCR FOR TEXT REGION DETECTION AND TROCR FOR TEXT RECOGNITION
+VERSION 3: IMPLEMENTING IMG2TABLE FOR TABLE BOUNDARY DETECTION AND TROCR FOR TEXT RECOGNITION AND EXCEL ENTRY
