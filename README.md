@@ -23,7 +23,8 @@ This project processes scanned images of handwritten tables to automatically det
 
 2. The current implementation of the code runs efficiently on powerful GPU machines in Google Colab but takes longer to execute on a local Jupyter notebook. As this is a preliminary version, future improvements can be made by optimizing and testing the code on a PC with a robust GPU to enhance performance.
 
-3. There is one anamoly that needs to be worked upon that occurs when certain images are not cropped correctly, resulting in an error.
+3. There is one anamoly that needs to be worked upon that occurs when certain images are not cropped correctly, resulting in an error. This anomaly occurs when the table is unable to identify a cell in the table resulting in a NULL value being returned, which causes an error to spring up.
+(UPDATE: this error has been temporarily handled (in TROCR_v2.ipynb) by replacing the unrecognized text with a blank “ ”  to avoid the program from abruptly stopping, and ensure its smooth completion)
 
 **CREDIT:**
 Pretrained model used: [TROCR](https://huggingface.co/microsoft/trocr-base-handwritten)
