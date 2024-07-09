@@ -28,9 +28,9 @@ This project processes scanned images of handwritten tables to automatically det
 
 **UPDATES:**
 The final version ready for use is the TROCR_v4.ipynb file.
-> This program is now capable of handling pdf files as well as image (.jpg, .png, .jpeg) files. It automatically detects the file type and performs the respective procedure.​
-> The images extracted from the pdf file are also auto-cropped, to increase the clarity and accuracy.​
-> The images obtained are now also preprocessed to increase the accuracy even further.​
+1. This program is now capable of handling pdf files as well as image (.jpg, .png, .jpeg) files. It automatically detects the file type and performs the respective procedure.​
+2. The images extracted from the pdf file are also auto-cropped, to increase the clarity and accuracy.​
+3. The images obtained are now also preprocessed to increase the accuracy even further.​
 
 **CREDIT:**
 Pretrained model used: [TROCR](https://huggingface.co/microsoft/trocr-base-handwritten)
