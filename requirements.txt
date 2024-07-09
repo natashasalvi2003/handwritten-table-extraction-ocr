@@ -2,3 +2,6 @@ openpyxl
 transformers
 pandas
 img2table
+python==3.10.12
+pdf2image
+poppler-utils
