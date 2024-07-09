@@ -26,6 +26,12 @@ This project processes scanned images of handwritten tables to automatically det
 3. There is one anamoly that needs to be worked upon that occurs when certain images are not cropped correctly, resulting in an error. This anomaly occurs when the table is unable to identify a cell in the table resulting in a NULL value being returned, which causes an error to spring up.
 (UPDATE: this error has been temporarily handled (in TROCR_v2.ipynb) by replacing the unrecognized text with a blank “ ”  to avoid the program from abruptly stopping, and ensure its smooth completion)
 
+**UPDATES:**
+The final version ready for use is the TROCR_v4.ipynb file.
+> This program is now capable of handling pdf files as well as image (.jpg, .png, .jpeg) files. It automatically detects the file type and performs the respective procedure.​
+> The images extracted from the pdf file are also auto-cropped, to increase the clarity and accuracy.​
+> The images obtained are now also preprocessed to increase the accuracy even further.​
+
 **CREDIT:**
 Pretrained model used: [TROCR](https://huggingface.co/microsoft/trocr-base-handwritten)
 Table detection model used: [IMG2TABLE](https://github.com/xavctn/img2table)
